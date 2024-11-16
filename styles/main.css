@@ -1,0 +1,636 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.container {
+  width: 1364px;
+  margin: 0 auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.btn {
+  width: 146px;
+  padding: 12px 18px;
+  text-align: center;
+  border: none;
+  border-radius: 18px 0px;
+  color: #ffffff;
+  background-color: #37806b;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* Header */
+
+.header {
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__logo img {
+  width: 151px;
+  height: 47px;
+}
+.nav__wrapper {
+  display: flex;
+  align-items: center;
+}
+.nav__lists {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 0px 30px;
+  color: #212121;
+}
+.nav__list {
+  font: Open Sans;
+  font-weight: 700;
+  line-height: 21.79px;
+  color: #212121;
+  text-transform: uppercase;
+}
+
+.nav__list:hover {
+  color: #646464;
+}
+
+.nav__btn {
+  border: none;
+  width: 97px;
+  border-radius: 24px 0 24px;
+  font-family: Open Sans;
+  font-weight: 700;
+  line-height: 21.79px;
+  background: #caa892;
+  padding: 5px 18px;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+/* <header> */
+
+/* HERO */
+
+.hero {
+}
+.container {
+}
+.hero__wrapper {
+  margin-top: 100px;
+  display: flex;
+  gap: 44px;
+  align-items: center;
+}
+.hero__info {
+  width: 606px;
+  display: flex;
+  flex-direction: column;
+}
+.hero__sub-title {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27.24px;
+  color: #646464;
+}
+.hero__title {
+  margin-top: 12px;
+  font-family: Poppins;
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 78px;
+  color: #212121;
+}
+.hero__details,
+.about-us__details {
+  margin-top: 23px;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #646464;
+}
+
+.hero__contact,
+.about-us__contact {
+  margin-top: 46px;
+}
+.hero__img img {
+  border-radius: 150px 0px;
+}
+/* HERO */
+
+/* Our Services */
+.our-service {
+  margin-top: 153px;
+}
+.our-service__wrapper {
+}
+.our-service-sub-title {
+  color: #646464;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+}
+.our-service__title {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 78px;
+}
+.our-service__cards {
+  display: flex;
+  gap: 37px;
+}
+.our-service__card {
+  width: 425px;
+  border-radius: 60px 0px;
+  padding: 36px 60px;
+  box-shadow: 0px 8px 20px 0px #00000024;
+}
+
+.our-service__card:hover {
+  background-color: #caa892;
+  color: #ffffff;
+}
+
+.our-service__card:hover > h4,
+.our-service__card:hover > p {
+  background-color: #caa892;
+  color: #ffffff;
+}
+
+.card__title {
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #212121;
+}
+.card__info {
+  margin-top: 8px;
+  color: #646464;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+}
+
+/* OUR SERVICE */
+
+/* ABOUT US */
+
+.about-us {
+}
+.container {
+}
+.about-us__wrapper {
+  margin-top: 236px;
+  display: flex;
+  gap: 132px;
+}
+
+.about-us__img img {
+  border-radius: 150px 0px;
+  width: 681px;
+  height: 726px;
+}
+.about-us__info {
+  margin-top: 58px;
+  width: 606px;
+  display: flex;
+  flex-direction: column;
+}
+.about-us__sub-title {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 27.24px;
+  color: #646464;
+}
+.about-us__title {
+  margin-top: 6px;
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 57px;
+  color: #212121;
+}
+
+.about-us__details {
+  margin-top: 22px;
+}
+
+/* ABOUT US */
+
+/* SUCCESSFUL-MARKET */
+.successful-market {
+}
+.container {
+}
+.successful-market__wrapper {
+  margin-top: 224px;
+  display: flex;
+  gap: 154px;
+  align-items: center;
+}
+.successful-market__info {
+  width: 606px;
+  display: flex;
+  flex-direction: column;
+}
+.successful-market__sub-title {
+  font-family: Open Sans;
+  font-size: 288px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.successful-market__title {
+  margin-top: 0px;
+  font-family: Poppins;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 65px;
+  color: #212121;
+  letter-spacing: 0.04em;
+}
+
+.hero__details,
+.about-us__details,
+.successful-market__details {
+  margin-top: 23px;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #646464;
+}
+
+.hero__contact,
+.about-us__contact,
+.successful-market {
+  margin-top: 46px;
+}
+
+.successful-market__read-more {
+  margin-top: 44px;
+  margin-bottom: 82px;
+}
+.successful-market__img img {
+  border-radius: 150px 0px;
+}
+/* SUCCESSFUL-MARKET */
+
+/* TESTIMONIALS */
+
+.testimonial {
+  margin-top: 184px;
+}
+.container {
+}
+.testimonial__sub-title {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #646464;
+}
+.testimonial__title {
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 72px;
+  color: #212121;
+}
+
+.testimonial__comment-wrapper {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  gap: 51px;
+}
+
+.testimonial__comment {
+  width: 665px;
+  padding: 44px 33px;
+  box-shadow: 7px 7px 30px 5px #42605426;
+  border: none;
+  border-radius: 70px 0px;
+  display: flex;
+}
+
+.testimonial__client-img img {
+  border-radius: 26px 0px;
+  width: 130px;
+  height: 130px;
+}
+
+.testimonial__client-comment {
+  padding-left: 30px;
+}
+
+.testimonial__client-title {
+}
+
+.testimonial__client-name {
+  font-family: Open Sans;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32.68px;
+}
+.testimonial__client-position {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  text-align: left;
+  color: #646464;
+}
+.testimonial__comment-info {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #646464;
+}
+/* TESTIMONIALS */
+
+/* OUR BLOG */
+.our-blog {
+  background: #f8f8f8;
+}
+.container {
+}
+.our-blog__sub-title {
+  text-align: center;
+  margin-top: 93px;
+  text-transform: uppercase;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #646464;
+}
+.our-blog__title {
+  margin-top: 21px;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 28px;
+
+  color: #212121;
+}
+.our-blog__wrapper {
+  margin-top: 82px;
+  margin-bottom: 122px;
+  display: flex;
+  gap: 136px;
+}
+
+.our-blog__left-side {
+}
+
+.our-blog__card-img {
+  width: 554px;
+  height: 387px;
+  border-radius: 100px;
+}
+.our-blog__img img {
+  width: 554px;
+  height: 387px;
+  border-radius: 100px 0px;
+  border: none;
+}
+.our-blog__card-info {
+}
+.our-blog__card-title {
+  margin-top: 60px;
+  font-family: Open Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 28px;
+}
+.our-blog__card-details {
+  padding-top: 14px;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.our-blog__card-btn {
+  margin-top: 45px;
+  width: 271px;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+}
+.our-blog__right-card {
+}
+/* OUR BLOG */
+
+/* SIGN UP  */
+
+.sign-up {
+}
+.container {
+}
+.sign-up__wrapper {
+  width: 772px;
+  margin: 141px auto;
+}
+.sign-up__title {
+  text-transform: uppercase;
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0.08em;
+  color: #212121;
+}
+.middle-hr {
+  width: 461px;
+  margin: 0 auto;
+  margin-top: 37px;
+}
+.sign-up__info {
+  margin-top: 40px;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  color: #646464;
+}
+.sign-up__email-bar {
+  margin-top: 40px;
+  width: 772px;
+  height: 50px;
+  border: none;
+  border-radius: 20px 0px;
+  background: #eeeeee;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.sign-up__input-email {
+  margin-left: 27px;
+  border: none;
+  background: inherit;
+}
+
+.sign-up__input-email::placeholder {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 55px;
+  color: #646464;
+}
+.sign-up__btn {
+  border: none;
+  border-radius: 20px 0px;
+  padding: 12px 41px;
+  width: 180px;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24.51px;
+  text-align: center;
+  background-color: #37806b;
+  color: #ffffff;
+}
+
+/* SIGN UP  */
+
+/* FOOTER */
+.footer {
+  background: #f8f8f8;
+}
+.container {
+}
+.footer__wrapper {
+  margin: 0 auto;
+  padding-top: 93px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 37px;
+}
+.footer__logo-parts {
+  width: 350px;
+}
+.footer__logo img {
+  width: 151px;
+  height: 47px;
+}
+.footer__logo-info {
+  margin-top: 15px;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.footer__links-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+.footer__links-section a {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+}
+.footer__links-title {
+  text-transform: capitalize;
+  font-family: open Sans;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.footer__links-wrapper {
+}
+
+.footer__links-icon {
+  list-style-type: none;
+  display: flex;
+  gap: 10px; /* Adds space between the icons */
+  padding: 0;
+}
+
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-linkedin:hover,
+.fa-square-twitter:hover {
+  color: green;
+  background-color: white;
+}
+
+.fa-brands {
+  color: #d5d5d5;
+  width: 37px;
+  height: 37px;
+}
+.fa-facebook {
+}
+.twitter {
+}
+.fa-square-twitter {
+}
+.instagramm {
+}
+.fa-instagram {
+}
+.linkedin {
+}
+.fa-linkedin {
+}
+
+.footer__line {
+  margin-top: 70px;
+  width: 100%;
+}
+.footer__copyright {
+  margin-top: 15px;
+  margin-bottom: 22px;
+  text-align: center;
+
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.51px;
+}
+
+.footer__copyright span {
+  color: rgb(80, 166, 80);
+}
+/* FOOTER */
